@@ -1,0 +1,99 @@
+.welcome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/img/intro.jpg) center center / cover no-repeat
+}
+
+.welcome__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.welcome__center-block {  
+  text-align: center;
+  animation: scaleIn 1.5s;
+  /* animation-delay: 1s; */
+}
+
+.welcome__btn { 
+  display: block;
+  padding: 12px 20px;
+  color: #ec1e79;
+  border: 3px solid #ec1e79;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.welcome__btn:hover {
+  color: #fff;
+  background: #ec1e79;
+  
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.2) rotate(20deg);
+
+  }
+
+  40% {
+    transform: rotate(-20deg);
+    opacity: 1;
+
+  }
+
+  70% {
+    transform: rotate(3deg);
+
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%, 40%, 60%, 100% {
+    transform: translateY(0);
+
+  }
+
+  0% {
+    opacity: 0;
+
+  }
+
+  20% {
+    transform: translateY(-35px);
+    opacity: 1;
+
+  }
+
+  50% {
+    transform: translateY(-16px);
+
+  }
+
+  70% {
+    transform: translateY(-4px);
+
+  }
+
+}
+
+

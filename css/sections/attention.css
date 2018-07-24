@@ -1,0 +1,22 @@
+.attention {
+  background-color: #27273e;
+  height: 175px;
+  margin-bottom: 57px;
+  background-image: url(/img/pattern.png);
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+}
+
+.attention__text {
+  color: #fff;
+  padding-top: 50px;
+  width: 615px;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.attention__text-sale {
+  color: #ec1e79;
+  font-weight: bold;
+}

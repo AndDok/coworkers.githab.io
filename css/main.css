@@ -1,0 +1,23 @@
+/* Layout setups */
+@import url('/css/layout/fonts.css');
+@import url('/css/layout/normalize.css');
+@import url('/css/layout/base.css');
+
+/* Sections */
+@import url('/css/sections/intro.css');
+@import url('/css/sections/header.css');
+@import url('/css/sections/pagination.css');
+@import url('/css/sections/titles.css');
+@import url('/css/sections/banner.css');
+@import url('/css/sections/breadcrumbs.css');
+@import url('/css/sections/wrapper.css');
+@import url('/css/sections/sidebar.css');
+@import url('/css/sections/container.css');
+@import url('/css/sections/content.css');
+@import url('/css/sections/features.css');
+@import url('/css/sections/news.css');
+@import url('/css/sections/footer.css');
+@import url('/css/sections/attention.css');
+@import url('/css/sections/form.css');
+@import url('/css/sections/partners.css');
+@import url('/css/sections/price.css');

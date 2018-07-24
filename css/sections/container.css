@@ -1,0 +1,12 @@
+.container {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container__form  {
+  width: 1100px;
+  height: 60%;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}

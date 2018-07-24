@@ -1,0 +1,35 @@
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 60px;
+  margin-bottom: 93px;
+  
+  
+}
+
+.partners__elem {
+  flex: 1 0 33%;
+  padding-bottom: 65px;
+  align-content: flex-end;
+}
+
+.partners__link {
+  display: flex;
+  
+  
+  
+  
+}
+
+.partners__img {
+  filter: grayscale(100%);
+  transition: 0.3s;
+  
+}
+
+.partners__img:hover {
+  filter: grayscale(0%);
+  
+}
+
